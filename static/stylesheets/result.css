@@ -1,4 +1,4 @@
-
+/* 
 
 body            { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 a, h1, h2       { color: #377ba8; }
@@ -26,4 +26,48 @@ table.dataframe, .dataframe th, .dataframe td {
 
 tr:nth-child(odd)	{ background-color:#eee; }
 tr:nth-child(even)	{ background-color:#fff; }
-tr:hover            { background-color: #ffff99;}
+tr:hover            { background-color: #ffff99;} */
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #5c4d7d;  /* Background color matching the theme */
+  color: #000;  /* Text color */
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;  /* Padding for top and bottom */
+}
+
+h1 {
+  font-size: 2.5em;  /* Increase size for main title */
+  margin-bottom: 20px;
+  color: #000; /* Spacing below the title */
+}
+
+.container {
+  max-width: 800px;  /* Limit width for better readability */
+  margin: auto;  /* Center the container */
+  background: rgba(255, 255, 255, 0.1);  /* Slightly transparent background */
+  border-radius: 15px;  /* Rounded corners */
+  padding: 30px;  /* Padding inside the container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* Shadow for depth */
+}
+
+.results {
+  margin-top: 30px;  /* Space above results */
+  display: flex;
+  justify-content: center;  /* Center content */
+}
+
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;  /* Line below each row */
+  border-collapse: collapse;
+  text-align: center;  /* Center text */
+  padding: 10px;  /* Padding for cells */
+  margin: 0 auto;  /* Center the table */
+  font-size: 1em;  /* Font size */
+  color: #000;  
+}
+
+tr:nth-child(odd) { background-color: #eee; }  /* Odd rows color */
+tr:nth-child(even) { background-color: #fff; }  /* Even rows color */
+tr:hover { background-color: #ffff99; }  /* Highlight on hover */
