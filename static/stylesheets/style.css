@@ -4,27 +4,11 @@ body {
     color: white;
     text-align: center;
     padding-top: 5px;
-    margin: 0;  /* Remove default margin */
-    height: 100vh;  /* Full height for centering */
+    margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Center vertically */
-}
-
-h1 {
-    padding-top: 20px;  /* Adjusted padding to accommodate centering */
-    color: white;
-    text-align: center;
-    font-size: 50px;
-}
-
-p1 {
-    font-size: 20px;
-    color: black;
-}
-
-span {
-    background-color: white;
+    justify-content: center;
 }
 
 .search-container {
@@ -36,37 +20,45 @@ span {
 
 form {
     display: flex;
-    width: 40%;  /* Increased width for responsiveness */
-    max-width: 280px;  /* Max width for the search box */
+    width: 40%;
+    max-width: 280px;
 }
 
 .search-input {
     flex: 1;
-    padding: 8px 10px;  /* Padding for input */
-    font-size: 14px;  /* Font size */
-    border: 2px solid #ccc;  /* Border style */
-    border-radius: 25px 0 0 25px;  /* Rounded corners for the left side */
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 25px 0 0 25px;
     outline: none;
-    transition: border-color 0.3s ease;  /* Transition for focus */
+    transition: border-color 0.3s ease;
 }
 
 .search-input:focus {
-    border-color: #ff7b54;  /* Change border color on focus */
+    border-color: #ff7b54;
 }
 
 .search-button {
-    padding: 8px 15px;  /* Padding for the button */
-    font-size: 14px;  /* Font size */
-    font-weight: bold;  /* Font weight */
-    background-color: #FFE1E1;  /* Updated background color */
-    color: #333;  /* Text color for contrast */
-    border: 2px solid #FFE1E1;  /* Border color matches background */
-    border-radius: 0 25px 25px 0;  /* Rounded corners for the right side */
-    cursor: pointer;  /* Pointer on hover */
-    transition: background-color 0.3s ease, border-color 0.3s ease;  /* Transition effects */
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #FFE1E1;
+    color: #333;
+    border: 2px solid #FFE1E1;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .search-button:hover {
-    background-color: #ffcccc;  /* Change to a slightly darker shade on hover */
-    border-color: #ffcccc;  /* Border color changes on hover */
+    background-color: #ffcccc;
+    border-color: #ffcccc;
+}
+
+/* New Error Message Styling */
+.error-message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
 }
