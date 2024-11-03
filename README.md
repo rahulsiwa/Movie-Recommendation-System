@@ -8,10 +8,10 @@ A flask web-app which can be used to get recommendations for a tv-show/movie, th
 Here are some additional screenshots of the app:
 
 ### Home Screen
-<img src="Screenshots/Home Screen.png" alt="Home Screen" width="600"/>
+<img src="Screenshots/Home Screen.png" alt="Home Screen" width="800"/>
 
 ### Recommendations Screen
-<img src="Screenshots/Recommendations.png" alt="Recommendations Screen" width="600"/>
+<img src="Screenshots/Recommendations.png" alt="Recommendations Screen" width="800"/>
 
 ### Search Function Screen
-<img src="Screenshots/Search Function.png" alt="Search Function Screen" width="600"/>
+<img src="Screenshots/Search Function.png" alt="Search Function Screen" width="800"/>
